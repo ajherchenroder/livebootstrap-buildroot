@@ -13,3 +13,5 @@ else
     # Copy grub 1st stage to binaries, required for genimage
     cp -f "$TARGET_DIR/lib/grub/i386-pc/boot.img" "$BINARIES_DIR"
 fi
+#cp ~/live-bootstrap.tar.gz $TARGET_DIR
+cp ~/Desktop/livebootstrap-buildroot/livebootstrap.sh $TARGET_DIR
