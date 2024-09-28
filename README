@@ -4,14 +4,15 @@ Basic Instructions:
 
 1.  Clone the repository.
 2.  CD into the repository.
-3.  Run make in the root of the repository.
-4.  cd into output/images/
-5.  Use DD to write the disk.img file to whatever boot media that you will be using.
-6.  Boot the target and log in as root. (there is no password set by default)
-7.  cd into the root directory.
-8.  Run the live bootstrap.sh bash script.
-9.  Tell the script which drive to run the bootstrap on.
-10. wait for the bootstrap to complete.
+3.  Run make menuconfig and then exit and save. 
+4.  Run make in the root of the repository.
+5.  cd into output/images/
+6.  Use DD to write the disk.img file to whatever boot media that you will be using.
+7.  Boot the target and log in as root. (there is no password set by default)
+8.  cd into the root directory.
+9.  Run the live bootstrap.sh bash script.
+10.  Tell the script which drive to run the bootstrap on.
+11. wait for the bootstrap to complete.
 
 Notes:
 
@@ -32,7 +33,7 @@ The livebootstrap script supports a local distfiles cache. To use it, do the fol
 5.  Run step 1 and 2 of the basic steps.
 6.  Edit the bootstrap.sh bash script.
 7.  Search for "#local" and replace the URL in the curl command on the next line.
-8.  Save the file and complete steps 3-7
+8.  Save the file and complete steps 3-8
 9.  On step 9, invoke bootstrap.sh with the -L flag to use your local repository.
 10. Complete the rest of the steps. 
 
