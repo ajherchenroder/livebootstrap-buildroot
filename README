@@ -11,7 +11,7 @@ Basic Instructions:
 7.  Boot the target and log in as root. (there is no password set by default)
 8.  cd into the root directory.
 9.  Run the live bootstrap.sh bash script.
-10.  Tell the script which drive to run the bootstrap on.
+10. Tell the script which drive to run the bootstrap on.
 11. wait for the bootstrap to complete.
 
 Notes:
