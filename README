@@ -4,8 +4,8 @@ Basic Instructions:
 
 1.  Clone the repository.
 2.  CD into the repository.
-3.  Run make menuconfig and then exit and save. 
-4.  Run make in the root of the repository.
+3.  Run make olddefconfig in the root of the repository.
+4.  Run make to start the build.
 5.  cd into output/images/
 6.  Use DD to write the disk.img file to whatever boot media that you will be using.
 7.  Boot the target and log in as root. (there is no password set by default)
