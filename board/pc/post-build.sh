@@ -14,4 +14,4 @@ else
     cp -f "$TARGET_DIR/lib/grub/i386-pc/boot.img" "$BINARIES_DIR"
 fi
 #cp ~/live-bootstrap.tar.gz $TARGET_DIR
-cp ~/Desktop/livebootstrap-buildroot/livebootstrap.sh $TARGET_DIR
+cp livebootstrap.sh $TARGET_DIR
