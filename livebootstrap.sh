@@ -74,5 +74,6 @@ if test "$REMOTE" = "local"; then
    tar -xvf /mnt/live-bootstrap/distfiles.tar
 fi
 ./download-distfiles.sh
+echo "/dev/$DISKTOUSE" > /mnt/live-bootstrap/steps/lfs/lfsdisktouse
 echo "Ready to bootstrap"
 ./rootfs.py -c --external-sources --cores $CORES
